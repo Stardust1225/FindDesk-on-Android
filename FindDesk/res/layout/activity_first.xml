@@ -1,0 +1,46 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:background="@drawable/background1"
+	android:animateLayoutChanges="true">
+
+	<com.example.finddesk.Firstview
+	    android:id="@+id/first_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"  />
+	<TextView 
+	    android:id="@+id/first_welcome"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="欢  迎  使 用 座 无 虚 席   aqq"
+		android:layout_centerInParent="true"
+		android:textSize="20sp"/>
+	    
+    <LinearLayout
+       android:layout_width="match_parent" 
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:animateLayoutChanges="true">
+      <Button 
+          	android:id="@+id/first_login"
+          	android:layout_width="match_parent" 
+       		android:layout_height="wrap_content"
+       		android:layout_weight="1"
+       		android:text="登陆"
+       		android:textColor="#ff0000"
+       		android:textSize="20sp"
+       		android:background="@null"/>
+      <Button 
+          	android:id="@+id/first_register"
+          	android:layout_width="match_parent" 
+       		android:layout_height="wrap_content"
+       		android:layout_weight="1"
+       		android:text="注册"
+       		android:textColor="#ff0000"
+       		android:textSize="20sp"
+       		android:background="@null"/>    
+    </LinearLayout>"
+    
+</RelativeLayout>

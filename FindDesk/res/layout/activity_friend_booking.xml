@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background1">
+    
+    
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:divider="#00000000"
+		android:dividerHeight="5dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/friend_name"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/friend_account"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/friend_library"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/friend_part"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/friend_location"
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"/>
+        	
+        
+    </LinearLayout>
+</LinearLayout>

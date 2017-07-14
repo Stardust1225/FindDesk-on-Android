@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_marginTop="15dp"
+    	android:layout_marginLeft="20dp">
+     	<CheckBox
+     	       android:id="@+id/setting_auto"
+     	       android:layout_width="match_parent"
+    		   android:layout_height="match_parent"
+    		   android:layout_weight="1"
+    		   android:text="自动登录"/>
+     	
+     	<CheckBox
+     	    android:id="@+id/setting_friend"
+     	       android:layout_width="match_parent"
+    		   android:layout_height="match_parent"
+    		   android:layout_weight="1"
+    		   android:text="允许加好友"/>
+     	
+     	<CheckBox
+     	       android:id="@+id/setting_personalinfo"
+     	       android:layout_width="match_parent"
+    		   android:layout_height="match_parent"
+    		   android:layout_weight="1"
+    		   android:text="共享个人资料"/>
+     	
+     	<CheckBox
+     	       android:id="@+id/setting_phonedata"
+     	       android:layout_width="match_parent"
+    		   android:layout_height="match_parent"
+    		   android:layout_weight="1"
+    		   android:text="访问手机数据"/>
+     	
+     	<CheckBox
+     	       android:id="@+id/setting_friendrecom"
+     	       android:layout_width="match_parent"
+    		   android:layout_height="match_parent"
+    		   android:layout_weight="1"
+    		   android:text="推荐好友"/>
+	
+ 		<LinearLayout
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="horizontal">
+    		<Button 
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:text="保存"/>
+    </LinearLayout>
+ 
+    </LinearLayout>
+</LinearLayout>
